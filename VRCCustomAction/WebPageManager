@@ -1,0 +1,47 @@
+.func__OpenCirclePage_0x0
+0x0000000000000000  PUSH 0x0000000000000009(__0_const_intnl_SystemUInt32[System.UInt32])
+0x0000000000000008  PUSH 0x0000000000000002(pageId[System.Int32])
+0x0000000000000010  PUSH 0x000000000000000D(__0_intnl_SystemString[System.String])
+0x0000000000000018  EXTERN "SystemInt32.__ToString__SystemString"
+0x0000000000000020  PUSH 0x0000000000000004(circlePageRoot[UnityEngine.Transform])
+0x0000000000000028  PUSH 0x000000000000000D(__0_intnl_SystemString[System.String])
+0x0000000000000030  PUSH 0x000000000000000F(__0_intnl_UnityEngineTransform[UnityEngine.Transform])
+0x0000000000000038  EXTERN "UnityEngineTransform.__Find__SystemString__UnityEngineTransform"
+0x0000000000000040  PUSH 0x000000000000000F(__0_intnl_UnityEngineTransform[UnityEngine.Transform])
+0x0000000000000048  PUSH 0x0000000000000008(__0_const_intnl_SystemType[System.Type])
+0x0000000000000050  PUSH 0x000000000000000B(__0_intnl_UnityEngineComponent[UnityEngine.Component])
+0x0000000000000058  EXTERN "UnityEngineTransform.__GetComponent__SystemType__UnityEngineComponent"
+0x0000000000000060  PUSH 0x000000000000000B(__0_intnl_UnityEngineComponent[UnityEngine.Component])
+0x0000000000000068  PUSH 0x0000000000000006(__0_launcher_VRCCustomAction[VRC.SDKBase.VRCCustomAction])
+0x0000000000000070  COPY
+0x0000000000000074  PUSH 0x0000000000000006(__0_launcher_VRCCustomAction[VRC.SDKBase.VRCCustomAction])
+0x000000000000007C  PUSH 0x0000000000000007(__0_const_intnl_SystemString[System.String])
+0x0000000000000084  EXTERN "VRCSDKBaseVRCCustomAction.__Execute__SystemString__SystemVoid"
+0x000000000000008C  PUSH 0x0000000000000010(__0_intnl_returnTarget_UInt32[System.UInt32])
+0x0000000000000094  COPY
+0x0000000000000098  JMP __0_intnl_returnTarget_UInt32
+.end
+
+.func__OpenItemPage_0xA0
+0x00000000000000A0  PUSH 0x0000000000000009(__0_const_intnl_SystemUInt32[System.UInt32])
+0x00000000000000A8  PUSH 0x0000000000000002(pageId[System.Int32])
+0x00000000000000B0  PUSH 0x000000000000000C(__1_intnl_SystemString[System.String])
+0x00000000000000B8  EXTERN "SystemInt32.__ToString__SystemString"
+0x00000000000000C0  PUSH 0x0000000000000003(itemPageRoot[UnityEngine.Transform])
+0x00000000000000C8  PUSH 0x000000000000000C(__1_intnl_SystemString[System.String])
+0x00000000000000D0  PUSH 0x000000000000000E(__1_intnl_UnityEngineTransform[UnityEngine.Transform])
+0x00000000000000D8  EXTERN "UnityEngineTransform.__Find__SystemString__UnityEngineTransform"
+0x00000000000000E0  PUSH 0x000000000000000E(__1_intnl_UnityEngineTransform[UnityEngine.Transform])
+0x00000000000000E8  PUSH 0x0000000000000008(__0_const_intnl_SystemType[System.Type])
+0x00000000000000F0  PUSH 0x000000000000000A(__1_intnl_UnityEngineComponent[UnityEngine.Component])
+0x00000000000000F8  EXTERN "UnityEngineTransform.__GetComponent__SystemType__UnityEngineComponent"
+0x0000000000000100  PUSH 0x000000000000000A(__1_intnl_UnityEngineComponent[UnityEngine.Component])
+0x0000000000000108  PUSH 0x0000000000000005(__1_launcher_VRCCustomAction[VRC.SDKBase.VRCCustomAction])
+0x0000000000000110  COPY
+0x0000000000000114  PUSH 0x0000000000000005(__1_launcher_VRCCustomAction[VRC.SDKBase.VRCCustomAction])
+0x000000000000011C  PUSH 0x0000000000000007(__0_const_intnl_SystemString[System.String])
+0x0000000000000124  EXTERN "VRCSDKBaseVRCCustomAction.__Execute__SystemString__SystemVoid"
+0x000000000000012C  PUSH 0x0000000000000010(__0_intnl_returnTarget_UInt32[System.UInt32])
+0x0000000000000134  COPY
+0x0000000000000138  JMP __0_intnl_returnTarget_UInt32
+.end
