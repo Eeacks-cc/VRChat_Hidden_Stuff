@@ -2,7 +2,9 @@
 
 have you ever notice you have literally same udonsharp sdk as everyone's, but why would vket maps are able to 'open url in browser' that you cant do? secure is hidden here...
 
-check disassembled udonsharp file 'WebPageManager' from vket map, it calls "EXTERN "VRCSDKBaseVRCCustomAction.__Execute__SystemString__SystemVoid", and you dont have proper u# compiler to write this code, but look, we can still find funny in game binary and il2cppdumper's dump.cs.
+check disassembled udonsharp file 'WebPageManager' from vket map, it calls 
+`EXTERN "VRCSDKBaseVRCCustomAction.__Execute__SystemString__SystemVoid`
+and you dont have proper u# compiler to write this code, but look, we can still find funny in game binary and il2cppdumper's dump.cs.
 
 ```cs
 // Namespace: VRC.SDKBase
