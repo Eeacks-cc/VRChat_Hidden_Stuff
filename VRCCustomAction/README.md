@@ -28,5 +28,14 @@ public class VRCCustomAction : MonoBehaviour // TypeDefIndex: 23026
 }
 ```
 
-but how it implemented? no clue for right now, but surely i took a look to game binary, the function 'Execute' in current game binary version is just empty function with Debug.Log(parameter).
+but how it implemented? 
+
+no clue for right now, but surely i took a look to game binary,
+
+the function 'Execute' in current game binary version is just empty function with Debug.Log(parameter).
+
 so i guess... this function is risky? that they only build code implemention during vket actvity? still a mistery. but i will update here once next time vrchat has any activity.
+
+
+Note: this shit is 30k$ sdk for 1 year(imagine you sell url opener for 30k$)
+
