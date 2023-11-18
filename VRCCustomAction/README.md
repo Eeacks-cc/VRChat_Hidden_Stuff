@@ -335,7 +335,7 @@ but lets suspend for moment, i will continue later, not reversed + sleepy.
 
 i feel kind of sad here i cant continue to do this since this crap is a big chain,
 
-you need modify at least 4 modules with implemented code, i tried, but the compiler will set your own VRCUrlLauncher as null and udon just halted.
+you need modify at least 4 modules with implemented code, i tried, but the compiler will set your own VRCUrlLauncher as null and udon will halted.
 
 but i still believe there is way to use this, i think maybe... manually edit assembly? but it sounds like bullshit, i will try find out how to use it personally...
 
