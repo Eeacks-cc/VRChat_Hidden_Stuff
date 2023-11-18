@@ -323,7 +323,13 @@ what about this funny class `VRCJokeJamTracker` with `Execute(int param1)` ?? ar
 
 but what we get is, we know they have `VRC.SDK.Experimental` and `VRC.SDK.Internal`, yes, very internal. 
 
-lets suspend for moment, i will continue later, not reversed + sleepy.
+wait, back to topic, what we gonna do? whatif i say, i trying to rebuild sdk to support this feature? isnt it crazy? well ye, but its still hard work.
+
+come on, share to us the 30k$/yr feature.
+
+look at current sdk i have (maybe from ~2022.8 ver), go dnspy and check what is inside of magic sdk
+
+but lets suspend for moment, i will continue later, not reversed + sleepy.
 
 Note: this shit is 30k$ sdk for 1 year(imagine you sell url opener for 30k$)
 
