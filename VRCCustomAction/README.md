@@ -317,19 +317,20 @@ public class VRCUdonAnalytics : VRCCustomAction // TypeDefIndex: 3091
 
 ```
 
-as my comment on function, the `VRCUrlLauncher` is the real launcher for opening url, i have not checked others overrides with `Execute(string param1)` functions, ye they are sus, but you wanna hear more?
-
+```
+as my comment on function, the `VRCUrlLauncher` is the real launcher for opening url,
+i have not checked others overrides with `Execute(string param1)` functions, ye they are sus, but you wanna hear more?
 what about this funny class `VRCJokeJamTracker` with `Execute(int param1)` ?? are we drunk? its trying to open an int? WHAT? 
-
 but what we get is, we know they have `VRC.SDK.Experimental` and `VRC.SDK.Internal`, yes, very internal. 
-
 wait, back to topic, what we gonna do? whatif i say, i trying to rebuild sdk to support this feature? isnt it crazy? well ye, but its still hard work.
-
 come on, share to us the 30k$/yr feature.
-
 look at current sdk i have (maybe from ~2022.8 ver), go dnspy and check what is inside of magic sdk
-
 but lets suspend for moment, i will continue later, not reversed + sleepy.
+i feel kind of sad here i cant continue to do this since this crap is a big chain,
+you need modify at least 4 modules with implemented code, i tried, but the compiler will set your own VRCUrlLauncher as null and udon just halted.
+but i still believe there is way to use this, i think maybe... manually edit assembly? but it sounds like bullshit, i will try find out how to use it personally...
+```
+
 
 Note: this shit is 30k$ sdk for 1 year(imagine you sell url opener for 30k$)
 
