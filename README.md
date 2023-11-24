@@ -17,5 +17,3 @@ still adding new stuffs...
  Interact Udon Object runtime.
 
 ```
-- [UdonSharp Disassembler](https://github.com/extremeblackliu/UdonSharpDisassembler)
-- [UdonSharp Decompiler](https://github.com/extremeblackliu/UdonSharpDecompiler)
