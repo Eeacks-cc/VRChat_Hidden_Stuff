@@ -1,3 +1,7 @@
+# notice
+
+VRCCustomAction is currently suspended. 
+
 # VRCCustomAction
 
 have you ever notice you have literally same udonsharp sdk as everyone's, but why would vket maps are able to 'open url in browser' that you cant do? secure is hidden here...
