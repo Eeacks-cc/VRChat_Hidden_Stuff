@@ -1,6 +1,6 @@
-# notice
+# Notice
 
-VRCCustomAction is currently suspended. 
+VRCCustomAction reverse engineering is currently suspended. 
 
 # VRCCustomAction
 
